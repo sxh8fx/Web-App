@@ -1,0 +1,58 @@
+body {
+    font-family: 'American Typewriter', serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images3.alphacoders.com/671/671289.jpg) no-repeat;
+    background-size: cover;
+}
+
+.form-center {
+    width: 300px;
+    border: 2px solid #BDBDBD;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D4AF37;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B38928;
+}
+
+.error {
+    color: #D43737;
+    margin-left: 5px;
+}
